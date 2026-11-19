@@ -1,0 +1,15 @@
+{
+  "name": "nextlevelgamingnews",
+  "private": true,
+  "version": "2026.11.13",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node tests/commerce.test.mjs",
+    "paypal:verificar": "node tools/verificar-paypal-real.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

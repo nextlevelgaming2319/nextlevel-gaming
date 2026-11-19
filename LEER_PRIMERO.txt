@@ -1,0 +1,10 @@
+NextLevel Gaming News — PayPal REAL (17/11/2026)
+
+Para conectar la cuenta PayPal del vendedor: PAGOS_REALES_LEER_PRIMERO.md
+Para saber qué está probado y qué falta verificar: ESTADO_PAGOS_171126.md
+
+Inicio del servidor Node: npm start
+Verificación de credenciales reales: npm run paypal:verificar
+
+NO se incluyen credenciales privadas. Los cobros permanecerán bloqueados
+hasta configurar y comprobar una cuenta PayPal real.
