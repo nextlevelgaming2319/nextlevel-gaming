@@ -1,5 +1,6 @@
 import {gzipSync} from 'node:zlib';
-import {handleCommerce,reconcilePendingOrders} from './commerce.mjs';
+// Keep the legacy SQLite path only for the bundled offline mock tests.
+const {handleCommerce,reconcilePendingOrders}=await import(process.env.NLG_TEST_SQLITE==='YES'?'./commerce.mjs':'./commerce-pg.mjs');
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
